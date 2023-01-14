@@ -1,0 +1,16 @@
+:root {
+  --color-bg-primary: rgba(70, 63, 58, 1);
+  --color-bg-secondary: rgba(138, 129, 124, 0.6);
+  --color-text-primary: rgba(244, 243, 238, 1);
+  --color-text-secondary: rgba(188, 184, 177, 1);
+  --color-border-primary: rgba(138, 129, 124);
+  --color-link-hover: #e0afa0;
+  --font-size-m: 16px;
+  --font-size-l: 32px;
+  --font-size-xl: 48px;
+  --font-size-xxl: 96px;
+  --gutter-s: 4px;
+  --gutter-m: 16px;
+  --gutter-l: 32px;
+  --gutter-xl: 64px;
+}
