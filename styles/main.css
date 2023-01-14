@@ -1,0 +1,236 @@
+.header,
+.print-header {
+  position: fixed;
+  width: calc(100% - var(--gutter-l) * 2);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2em 0;
+  background: var(--color-bg-primary);
+  font-size: var(--font-size-m);
+  z-index: 1;
+}
+
+.print-header {
+  display: none;
+  background: transparent;
+}
+
+.contacts {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contacts__item:not(:last-child)::after {
+  content: "|";
+  margin: 0 0.5em;
+  color: var(--color-text-secondary);
+}
+
+.contacts__link {
+  text-decoration: none;
+}
+
+.main-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  gap: var(--gutter-l);
+}
+
+.position {
+  font-size: var(--font-size-l);
+  line-height: 1.2em;
+  color: var(--color-text-secondary);
+}
+
+.avatar {
+  margin: 0;
+}
+
+.avatar__img {
+  border-radius: 50%;
+  width: 256px;
+}
+
+.section {
+  padding: var(--gutter-xl) 0;
+}
+
+.skills {
+  margin: var(--gutter-m) 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter-m);
+}
+
+.skills__item {
+  border-radius: 1em;
+  background-color: var(--color-bg-secondary);
+  padding: var(--gutter-s) var(--gutter-m);
+  line-height: 1.5em;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.articles {
+  margin: var(--gutter-m) 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  gap: var(--gutter-m);
+  flex-wrap: wrap;
+}
+
+.article {
+  display: block;
+  padding: var(--gutter-m);
+  border: 1px solid var(--color-border-primary);
+  border-radius: 0.5em;
+  color: var(--color-text-primary);
+  font-size: var(--font-size-l);
+  line-height: 1.5em;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.article:hover {
+  border-color: var(--color-link-hover);
+}
+
+.jobs {
+  margin: var(--gutter-m) 0;
+  padding: 0;
+  list-style: none;
+}
+
+.job {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: var(--gutter-m) 0;
+}
+
+.job__name {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-l);
+  line-height: 1.5em;
+}
+
+.job__position {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-m);
+  line-height: 1.5em;
+}
+
+.job__period {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-m);
+  line-height: 1.5em;
+}
+
+.achievements__item {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-m);
+  margin: var(--gutter-m) 0;
+  font-weight: 500;
+}
+
+.footer {
+  width: calc(100% - var(--gutter-l) * 2);
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2em 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.credits {
+  font-size: var(--font-size-m);
+  line-height: 1.5em;
+  color: var(--color-text-secondary);
+}
+
+@media screen and (max-width: 768px) {
+  .main-section {
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  :root {
+    --font-size-m: 16px;
+    --font-size-l: 16px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 36px;
+    --gutter-l: 16px;
+    --gutter-xl: 24px;
+  }
+
+  .main-section {
+    flex-direction: column;
+    align-items: initial;
+    justify-content: center;
+  }
+
+  .avatar__img {
+    width: 128px;
+  }
+}
+
+@media print {
+  :root {
+    --font-size-m: 16px;
+    --font-size-l: 16px;
+    --font-size-xl: 24px;
+    --font-size-xxl: 36px;
+    --gutter-m: 8px;
+    --gutter-l: 16px;
+    --gutter-xl: 24px;
+    --color-text-primary: rgba(70, 63, 58, 1);
+    --color-text-secondary: rgba(138, 129, 124, 0.6);
+  }
+
+  body {
+    font-family: sans-serif;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .print-header {
+    display: block;
+  }
+
+  .main-section {
+    height: initial;
+    padding: var(--gutter-m) 0;
+  }
+
+  .avatar__img {
+    width: 128px;
+  }
+
+  .section {
+    padding: var(--gutter-m) 0;
+  }
+
+  .skills__item {
+    border-radius: none;
+    background-color: none;
+    padding: 0;
+  }
+
+  .articles-section,
+  .header,
+  .footer {
+    display: none;
+  }
+}
