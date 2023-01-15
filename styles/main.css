@@ -59,6 +59,24 @@
   padding: var(--gutter-xl) 0;
 }
 
+<style type="text/css">
+.quote-container {
+  width: 500px;
+  margin: 0 auto;  
+}  
+.quote-text {  
+  font-size: 24px;  
+  font-style: italic;  
+  color: #555;  
+  animation: fadeIn 3s ease-in forwards;  
+}  
+
+ .quote-author {  
+  font-size: 18px;  
+  color: #999;  
+  animation: fadeIn 3s ease-in forwards;                                                                                               
+}
+
 .skills {
   margin: var(--gutter-m) 0;
   padding: 0;
