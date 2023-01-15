@@ -68,6 +68,7 @@
   gap: var(--gutter-m);
 }
 
+<style type="text/css">
 .quote-container {
   width: 500px;
   margin: 0;
@@ -85,6 +86,8 @@
   color: #999;  
   animation: fadeIn 3s ease-in forwards;                                                                                               
 }
+
+ @keyframes fadeIn {     0% { opacity: 0;}     100% { opacity: 1;} }    </style>
 
 .skills__item {
   border-radius: 1em;
