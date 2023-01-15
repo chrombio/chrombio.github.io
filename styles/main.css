@@ -62,6 +62,7 @@
 .quote-container {
   width: 500px;
   margin: 0 auto;
+  align-items: flex-start;
 }  
 
 .quote-text {  
