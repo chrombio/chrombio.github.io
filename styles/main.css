@@ -37,6 +37,7 @@
   height: 100vh;
   display: flex;
   gap: var(--gutter-l);
+  align-items: center;
 }
 
 .position {
@@ -70,14 +71,14 @@
 .quote-container {
   width: 500px;
   margin: 0 auto;
-  justify-content: start;
 }  
 
 .quote-text {  
   font-size: 24px;  
   font-style: italic;  
   color: #555;  
-  animation: fadeIn 3s ease-in forwards;  
+  animation: fadeIn 3s ease-in forwards;
+  justify-content: start;
 }  
 
  .quote-author {  
