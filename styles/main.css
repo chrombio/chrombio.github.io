@@ -59,16 +59,6 @@
   padding: var(--gutter-xl) 0;
 }
 
-.skills {
-  margin: var(--gutter-m) 0;
-  padding: 0;
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--gutter-m);
-}
-
-<style type="text/css">
 .quote-container {
   width: 500px;
   margin: 0 auto;
@@ -84,7 +74,15 @@
   font-size: 18px;  
   color: #999;                                                                                               
 }
-</style>
+
+.skills {
+  margin: var(--gutter-m) 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--gutter-m);
+}
 
 .skills__item {
   border-radius: 1em;
