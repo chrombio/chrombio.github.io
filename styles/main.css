@@ -71,6 +71,7 @@
 .quote-container {
   width: 500px;
   margin: 0;
+  display: flex;
 }  
 
 .quote-text {  
