@@ -55,10 +55,6 @@
   width: 256px;
 }
 
-.section {
-  padding: var(--gutter-xl) 0;
-}
-
 .quote-container {
   width: 500px;
   margin: 0 auto;
@@ -74,6 +70,10 @@
  .quote-author {  
   font-size: 18px;  
   color: #999;                                                                                               
+}
+
+.section {
+  padding: var(--gutter-xl) 0;
 }
 
 .skills {
