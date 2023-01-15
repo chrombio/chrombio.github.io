@@ -69,6 +69,23 @@
   gap: var(--gutter-m);
 }
 
+.quote-container {
+  width: 500px;
+  margin: 0 auto;  
+}  
+.quote-text {  
+  font-size: 24px;  
+  font-style: italic;  
+  color: #555;  
+  animation: fadeIn 3s ease-in forwards;  
+}  
+
+ .quote-author {  
+  font-size: 18px;  
+  color: #999;  
+  animation: fadeIn 3s ease-in forwards;                                                                                               
+}
+
 .skills__item {
   border-radius: 1em;
   background-color: var(--color-bg-secondary);
