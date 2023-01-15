@@ -71,7 +71,6 @@
 .quote-container {
   width: 500px;
   margin: 0;
-  display: flex;
 }  
 
 .quote-text {  
@@ -79,7 +78,6 @@
   font-style: italic;  
   color: #555;  
   animation: fadeIn 3s ease-in forwards;
-  justify-content: start;
 }  
 
  .quote-author {  
