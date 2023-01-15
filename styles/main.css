@@ -59,7 +59,6 @@
   padding: var(--gutter-xl) 0;
 }
 
-
 .skills {
   margin: var(--gutter-m) 0;
   padding: 0;
@@ -71,8 +70,10 @@
 
 .quote-container {
   width: 500px;
-  margin: 0 auto;  
+  margin: 0 auto;
+  justify-content: start;
 }  
+
 .quote-text {  
   font-size: 24px;  
   font-style: italic;  
