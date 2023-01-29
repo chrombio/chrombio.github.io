@@ -103,13 +103,13 @@
 
 .job__name {
   color: var(--color-text-primary);
-  font-size: var(--font-size-l);
+  font-size: var(--font-size-m);
   line-height: 1.5em;
 }
 
 .job__position {
   color: var(--color-text-secondary);
-  font-size: var(--font-size-m);
+  font-size: var(--font-size-l);
   line-height: 1.5em;
 }
 
