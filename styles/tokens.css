@@ -1,8 +1,8 @@
 :root {
-  --color-bg-primary: rgba(22, 22, 26, 1);
-  --color-bg-secondary: rgba(218, 210, 216, 1);
-  --color-text-primary: rgba(132, 176, 130, 1);
-  --color-text-secondary: rgba(163, 196, 188, 1);
+  --color-bg-primary: rgb(22, 22, 26);
+  --color-bg-secondary: rgb(194,215,223);
+  --color-text-primary: rgb(132, 176, 130);
+  --color-text-secondary: rgb(163, 196, 188);
   --color-border-primary: rgba(138, 129, 124);
   --color-link-hover: #BDA0BC;
   --font-size-m: 16px;
