@@ -1,11 +1,11 @@
 :root {
   --color-bg-primary: rgb(22, 22, 26);
   --color-bg-secondary: rgba(138, 129, 124, 0.6);
-  --color-text-primary: #9B7EDE;
+  --color-text-primary: #F1BF98;
   --color-text-secondary: rgb(247, 250, 247);
   --color-skills: #EEE5E9;
   --color-border-primary: rgba(138, 129, 124);
-  --color-link-hover: #EEE5E9;
+  --color-link-hover: #F1BF98;
   --font-size-m: 16px;
   --font-size-l: 32px;
   --font-size-xl: 48px;
